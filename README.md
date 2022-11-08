@@ -4,7 +4,7 @@ Data labelling tool build using streamlit python library.
 
 To run locally:
 
-1. Clone the repository - `https://github.com/Osr-Tester/Data_Labelling.git`
+1. Clone the repository - `https://github.com/hrdyam/Data_Labelling_Tool.git`
 
 2. Rename `credentials_empty.py` in config folder to `credentials.py` and update database_url. 
    To get the database url: login to heroku -> goto settings tab  -> Click reveal Config Vars.
