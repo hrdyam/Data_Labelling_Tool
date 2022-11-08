@@ -10,7 +10,7 @@ import config.credentials as credentials
 
 
 def read_github_csv():
-    url = "https://raw.githubusercontent.com/Osr-Tester/Data_Labelling/main/hansard_data.csv"
+    url = "https://raw.githubusercontent.com/hrdyam/Data_Labelling_Tool/main/hansard_data.csv"
     df_github = pd.read_csv(url)
     return df_github
 
