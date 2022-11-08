@@ -27,8 +27,8 @@ def get_updated_csv():
     df_new = df_new[~df_new.clean_text.isin(df_db.clean_text.values)]
     df_to_update = df_new.to_csv('hanard_data.csv')
     # Automate the update to GitHub.
-    org = "Osr-Tester"
-    repo = "Data_labelling"
+    org = "hrdyam"
+    repo = "Data_labelling_Tool"
     branch = "main"
     file_path = "hansard_data.csv"
 
