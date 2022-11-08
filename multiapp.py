@@ -28,7 +28,7 @@ class MultiApp:
 
     def run(self):
         #url = os.environ['CSV_URL']
-        url = "https://raw.githubusercontent.com/Osr-Tester/Data_Labelling/main/hansard_data.csv"
+        url = "https://raw.githubusercontent.com/hrdyam/Data_Labelling_Tool/main/hansard_data.csv"
         df = pd.read_csv(url)
         # app = st.sidebar.radio(
         app = st.selectbox(
